@@ -63,7 +63,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                        @if($data)
+                        @if(count($data) > 0)
                             @foreach($data as $key=>$val)
                             <tr>
                                 <td class="text-center" style="vertical-align: middle;"> 
